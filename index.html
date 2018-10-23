@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>HackEx</title>
+
+    <!-- Ajout CSS -->
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+
+<body onload="afficherBDD();">
+
+    <header>
+        <h1>Base de données HackEx</h1>
+    </header>
+
+    <main role="main">
+
+        <div id="divInterraction">
+
+            <form role="search">
+
+                <div id="divRecherche">
+                    <p>Rechercher un IP </p>
+                    <input id="inpRecherche"
+                     placeholder="Rechercher adresse IP">
+                    <input type="button" id="btnRecherche" onclick="searchIP('null')" value="Rechercher">
+                </div>
+            </form>
+
+            <div id="divTri">
+                <p>Trier par </p>
+                <select id="listTri" onChange="triBDD();">
+                    <option>IP Croissant</option>
+                    <option>IP Décroissant</option>
+                    <option>Crack Croissant</option>
+                    <option>Crack Décroissant</option>
+                    <option>Spam Croissant</option>
+                    <option>Spam Décroissant</option>
+                    <option>Spyware Croissant</option>
+                    <option>Spyware Décroissant</option>
+                </select> 
+                    <!--<input id="btnTheme" type="button" value="Tirer les thèmes au sort" onclick="majHTMLThemesTires ()">-->
+            </div>
+
+        </div>
+
+        <div id="divTable">
+
+            <table id="tableau">
+            </table>
+
+        </div>
+
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
