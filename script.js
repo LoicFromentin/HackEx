@@ -165,31 +165,39 @@ function triBDD () {
 }
 
 
-setUp("124.112.15.139","non","oui","non");
+setUp("124.112.15.139","oui","oui","non");
 setUp("18.209.83.94","oui","oui","non");
 setUp("65.51.102.210","oui","oui","non");
 setUp("223.192.196.185","oui","oui","non");
-setUp("63.113.65.96","non","oui","non");
-setUp("186.55.139.242","non","oui","non");
+setUp("63.113.65.96","oui","oui","non");
+setUp("186.55.139.242","oui","oui","non");
 setUp("218.0.26.144","oui","oui","non");
 setUp("93.35.10.5","oui","oui","non");
 setUp("41.169.145.2","oui","oui","non");
-setUp("188.25.10.250","non","oui","non");
+setUp("188.25.10.250","oui","oui","non");
 setUp("95.57.219.135","oui","oui","non");
 setUp("212.74.25.241","oui","oui","non");
 setUp("44.227.178.171","oui","oui","non");
-setUp("57.60.129.35","non","oui","non");
+setUp("57.60.129.35","oui","oui","non");
 setUp("52.56.5.167","oui","oui","non");
 setUp("224.89.132.167","oui","oui","non");
 setUp("225.194.135.69","oui","oui","non");
 setUp("64.162.100.58","oui","oui","non");
 setUp("106.246.218.96","oui","oui","non");
 setUp("29.224.84.97","oui","oui","non");
+// 24/10
+setUp("205.163.47.245","oui","oui","non");
+setUp("120.250.102.168","non","non","non");
+setUp("61.17.99.24","oui","oui","non");
+setUp("89.93.222.195","oui","non","non");
+setUp("47.90.119.16","oui","oui","oui");
+setUp("0.121.14.16","non","non","non");
+setUp("228.10.68.202","non","non","non");
+setUp("72.233.140.20","non","non","non");
+setUp("136.64.22.7","non","non","non");
+setUp("108.136.41.91","non","non","non");
 /*
-setUp("",false,false,false);
-setUp("",false,false,false);
-setUp("",false,false,false);
-setUp("",false,false,false);
+setUp("","non","non","non");
 */
 
 // Crée le tableau HTML pour afficher tous les IP de la BDD
