@@ -166,14 +166,14 @@ function triBDD () {
 
 
 setUp("124.112.15.139","non","oui","non");
-setUp("18.209.83.94","non","oui","non");
+setUp("18.209.83.94","oui","oui","non");
 setUp("65.51.102.210","oui","oui","non");
-setUp("223.192.196.185","non","oui","non");
+setUp("223.192.196.185","oui","oui","non");
 setUp("63.113.65.96","non","oui","non");
 setUp("186.55.139.242","non","oui","non");
-setUp("218.0.26.144","non","oui","non");
+setUp("218.0.26.144","oui","oui","non");
 setUp("93.35.10.5","oui","oui","non");
-setUp("41.169.145.2","non","oui","non");
+setUp("41.169.145.2","oui","oui","non");
 setUp("188.25.10.250","non","oui","non");
 setUp("95.57.219.135","oui","oui","non");
 setUp("212.74.25.241","oui","oui","non");
