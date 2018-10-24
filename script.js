@@ -187,15 +187,14 @@ setUp("106.246.218.96","oui","oui","non");
 setUp("29.224.84.97","oui","oui","non");
 // 24/10
 setUp("205.163.47.245","oui","oui","non");
-setUp("120.250.102.168","non","non","non");
+setUp("120.250.102.168","oui","oui","non");
 setUp("61.17.99.24","oui","oui","non");
-setUp("89.93.222.195","oui","non","non");
+setUp("89.93.222.195","oui","oui","non");
 setUp("47.90.119.16","oui","oui","oui");
-setUp("0.121.14.16","oui","non","non");
+setUp("0.121.14.16","oui","oui","non");
 setUp("228.10.68.202","oui","oui","non");
 setUp("72.233.140.20","non","non","non");
-setUp("136.64.22.7","non","non","non");
-setUp("108.136.41.91","non","non","non");
+setUp("24.21.92.79","non","non","non");
 /*
 setUp("","non","non","non");
 */
